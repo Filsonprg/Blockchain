@@ -15,17 +15,17 @@
 ```
 - Pro získání bloku podle ID lze použít metodu getBlock():
  ```bash
-Copy code
+
 $block = $chain->getBlock(2);
  ```
 - Pro získání posledního bloku v řetězci lze použít metodu getLastBlock():
  ```bash
-Copy code
+
 $lastBlock = $chain->getLastBlock();
  ```
 - Pro ověření platnosti řetězce lze použít metodu isValid(). Tato metoda vrátí true, pokud jsou všechny bloky v řetězci platné a následují po sobě v pořadí.
 ```bash
-Copy code
+
 if ($chain->isValid()) {
     echo "Řetězec je platný";
 } else {
