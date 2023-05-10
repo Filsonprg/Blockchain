@@ -32,3 +32,6 @@ if ($chain->isValid()) {
     echo "Řetězec je neplatný";
 }
  ```
+## UML
+
+![App Screenshot](https://raw.githubusercontent.com/Filsonprg/Blockchain/main/BLOCKCHAIN/UML.png)
